@@ -5,27 +5,26 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="Description" content="Web frontend for youtube-dl">
+  <meta name="Description" content="Web frontend for youtube-dl by Niobisoft">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link href="static/style.css" rel="stylesheet">
 
-  <title>youtube-dl</title>
+  <title>YouTube downloaded by Niobisoft</title>
 </head>
 
 <body>
   <div class="container d-flex flex-column text-light text-center">
     <div class="flex-grow-1"></div>
     <div class="jumbotron bg-transparent flex-grow-1">
-      <h1 class="display-4">youtube-dl</h1>
-      <p class="lead">Enter a video url to download the video to the server. Url can be to YouTube or <a class="text-info"
-          href="https://rg3.github.io/youtube-dl/supportedsites.html">any
-          other supported site</a>. The server will automatically download the highest quality version available.</p>
+      <h1 class="display-4">YouTube downloader by Niobisoft</h1>
+      <p class="lead">Seznam podporovaných serverů je k dispozici zde:<a class="text-info"
+          href="supported.php">Link</a>. Server stahuje tu nejlepší kvalitu jakou může (prozatím).</p>
       <hr class="my-4">
       <div>
-        <form action="/youtube-dl/q" method="POST">
+        <form action="download.php" method="POST">
           <div class="input-group">
             <input name="url" type="url" class="form-control" placeholder="URL" aria-label="URL" aria-describedby="button-submit">
             <select class="custom-select" name="format">
@@ -59,7 +58,7 @@
     <footer>
       <div>
         <p class="text-muted">Web frontend for <a class="text-light" href="https://rg3.github.io/youtube-dl/">youtube-dl</a>,
-          by <a class="text-light" href="https://twitter.com/manbearwiz">@manbearwiz</a>.</p>
+          by <a class="text-light" href="https://fb.me/niobisoft.eu">#Niobisoft</a>.</p>
       </div>
     </footer>
   </div>
