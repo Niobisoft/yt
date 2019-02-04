@@ -20,7 +20,7 @@
     <div class="flex-grow-1"></div>
     <div class="jumbotron bg-transparent flex-grow-1">
       <h1 class="display-4">YouTube downloader by Niobisoft</h1>
-      <p class="lead">Seznam podporovaných serverů je k dispozici zde:<a class="text-info"
+      <p class="lead">Seznam podporovaných serverů je k dispozici zde: <a class="text-info"
           href="supported.php">Link</a>. Server stahuje tu nejlepší kvalitu jakou může (prozatím).</p>
       <hr class="my-4">
       <div>
@@ -29,7 +29,6 @@
             <input name="url" type="url" class="form-control" placeholder="URL" aria-label="URL" aria-describedby="button-submit">
             <select class="custom-select" name="format">
               <optgroup label="Video">
-                <option value="bestvideo">Best Video</option>
                 <option value="mp4">MP4</option>
                 <option value="flv">Flash Video (FLV)</option>
                 <option value="webm">WebM</option>
@@ -38,7 +37,6 @@
                 <option value="avi">AVI</option>
               </optgroup>
               <optgroup label="Audio">
-                <option value="bestaudio">Best Audio</option>
                 <option value="aac">AAC</option>
                 <option value="flac">FLAC</option>
                 <option value="mp3">MP3</option>
