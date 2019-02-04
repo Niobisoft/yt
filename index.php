@@ -5,14 +5,14 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="Description" content="Web frontend for youtube-dl by Niobisoft">
+  <meta name="Description" content="Web frontend pro youtube-dl by Niobisoft">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link href="static/style.css" rel="stylesheet">
 
-  <title>YouTube downloaded by Niobisoft</title>
+  <title>YouTube downloader by Niobisoft</title>
 </head>
 
 <body>
@@ -55,8 +55,8 @@
     </div>
     <footer>
       <div>
-        <p class="text-muted">Web frontend for <a class="text-light" href="https://rg3.github.io/youtube-dl/">youtube-dl</a>,
-          by <a class="text-light" href="https://fb.me/niobisoft.eu">#Niobisoft</a>.</p>
+        <p class="text-muted">Web frontend pro <a class="text-light" href="https://rg3.github.io/youtube-dl/">youtube-dl</a>,
+          by <a class="text-light" href="https://fb.me/niobisoft.eu">#Niobisoft</a> - 2019.</p>
       </div>
     </footer>
   </div>
